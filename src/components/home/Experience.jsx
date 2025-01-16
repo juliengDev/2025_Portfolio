@@ -14,7 +14,7 @@ const Experience = ({ experiences }) => {
           <h2 className="display-4 mb-5 text-center">
             {experiences.heading}
           </h2>
-          <Row>
+          <Row className="d-flex  align-items-center ">
             {
               experiences.data.map((data, index) => {
                 return <ExperienceCard key={index} data={data} />

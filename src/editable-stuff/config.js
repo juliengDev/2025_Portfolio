@@ -140,13 +140,48 @@ const experiences = {
     {
       role: 'FrontEnd Developer',// Here Add Company Name
       companylogo: require('../assets/img/wealth.jpeg'),
-      date: 'June 2018 – Present',
+      date: 'March 2024 - June 2024',
     },
-    // {
-    //   role: 'Front-End Developer',
-    //   companylogo: require('../assets/img/boeing.png'),
-    //   date: 'May 2017 – May 2018',
-    // },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/argent.jpeg'),
+      date: 'Jan 2024 - Feb 2024',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/sportsee.png'),
+      date: 'Nov 2023 - Dec 2023',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/kasa.png'),
+      date: 'Aug 2023 - Sept 2023',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/learn.png'),
+      date: 'Jul 2023 - Aug 2023',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/billed.png'),
+      date: 'Mai 2023 - Jul 2023',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/plats.png'),
+      date: 'Feb 2023 - Mai 2023',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/fish.png'),
+      date: 'Nov 2022 - Jan 2023',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/game.png'),
+      date: 'Oct 2022 - Nov 2022',
+    },
   ]
 }
 
