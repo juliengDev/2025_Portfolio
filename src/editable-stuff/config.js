@@ -1,3 +1,4 @@
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -12,25 +13,27 @@ const mainBody = {
   message: "Passionate about transforming ideas into impactful digital experiences using modern technologies.",
   icons: [
     {
-      image: "fa-github",
+      image: "fa-solid fa-github",
       url: "https://github.com/juliengDev",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa fa-laptop-code",
+      url: "https://www.frontendmentor.io/profile/juliengDev",
     },
+    
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      image: "fab fa-free-code-camp",
+      url: "https://www.freecodecamp.org/JulienGilbert",
     },
+    
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+      url: "https://www.linkedin.com/in/julien-gilbert-reactjs/",
+    }
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/Gylbi/",
+    // },
   ],
 };
 
@@ -41,7 +44,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/julien.png"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -79,12 +82,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/julien.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/julien.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -131,19 +134,19 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      role: 'FrontEnd Developer',// Here Add Company Name
+      companylogo: require('../assets/img/wealth.jpeg'),
       date: 'June 2018 – Present',
     },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+    // {
+    //   role: 'Front-End Developer',
+    //   companylogo: require('../assets/img/boeing.png'),
+    //   date: 'May 2017 – May 2018',
+    // },
   ]
 }
 
