@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/julien.jpg"),
   imageSize: 375,
   message:
-    "My name is Julien Gilbert. I graduated in 2024 with a Software Design degree from a renowned online school recognized across the internet. I started my coding journey as a completely self-taught developer, driven by my passion for learning and the boundless possibilities that coding offers to solve real-world problems. My goal is to improve every single day, contribute to ambitious and impactful projects, and keep pushing the boundaries of what technology can achieve. I would be delighted to connect, discuss your projects, and bring my skills and expertise to the table.",
+    "Hey there! I'm Julien, a tech enthusiast who turned my IT expertise into a full-stack development journey. After 10+ years managing networks and systems, I caught the coding bug and never looked back. I love pushing boundaries and learning new things - it's what gets me out of bed in the morning! My sweet spot? Crafting modern web applications where performance meets security. Whether you need a blazing-fast website or a complex web app, I bring both my IT background and development skills to the table to create solutions that just work. Always up for a new challenge and excited to learn something new. Want to build something cool together?",
   resume: "https://drive.google.com/file/d/1FpBnXHI5D9qhGCL15jweMjpbun635sdH/view",
 };
 
@@ -103,24 +103,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "HTML", value: 100 },
+    { name: "CSS/SCSS", value: 100 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "TypeScript", value: 80 },
+    { name: "React", value: 90 },
+    { name: "Redux", value: 90 },
+    { name: "Data Structures", value: 80 },
+    { name: "NodeJs", value: 60 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
+    { name: "Goal-Oriented", value: 90 },
+    { name: "Collaboration", value: 80 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Problem Solving", value: 100 },
+    { name: "Communication", value: 90 },
+    { name: "Organization", value: 90 },
+    { name: "Creativity", value: 80 },
   ],
 };
 
@@ -138,7 +138,7 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'FrontEnd Developer',// Here Add Company Name
+      role: 'Front-End Developer',// Here Add Company Name
       companylogo: require('../assets/img/wealth.jpeg'),
       date: 'March 2024 - June 2024',
     },

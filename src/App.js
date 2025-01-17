@@ -87,7 +87,7 @@ const App = () => {
   return (
     <BrowserRouter future={{
       v7_startTransition: true, // Active le support pour startTransition
-    }} basename={process.env.PUBLIC_URL  + "/"}>
+    }} basename={"/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
