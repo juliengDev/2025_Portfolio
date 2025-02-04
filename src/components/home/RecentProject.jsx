@@ -65,7 +65,7 @@ const RecentProject = ({ heading, username, length, specfic }) => {
     <Jumbotron fluid id="recent-projects" className="bg-light m-0">
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <Row >
+        <Row className="g-3">
           {projectsArray.length
             ? projectsArray.map((project, index) => (
               <RecentProjectCard

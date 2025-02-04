@@ -103,7 +103,55 @@ const data = {
       image: require('../assets/projects/17_desktop-preview.jpg'), 
       liveDemo: 'https://juliengdev-contact-form.netlify.app/',
       githubLink: 'https://github.com/juliengDev/Contact_Form'
-    }  
+    },  
+    {
+      id: 4,
+      title: 'FAQ Accordion Component',
+      description: 'This project is an interactive FAQ accordion component that allows users to expand and collapse answers to frequently asked questions. It prioritizes accessibility, keyboard navigation, and responsive design, ensuring an intuitive experience across all devices.',
+      image: require('../assets/projects/16_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-faq-accordion.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/FAQ_accordion'
+    } , 
+    {
+      id: 5,
+      title: 'Interactive rating component',
+      description: 'This project is an interactive web component that allows users to rate from 1 to 5 stars and display the result in a modal. It was developed with a focus on accessibility and best practices in front-end development.',
+      image: require('../assets/projects/15_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-interactive-rating.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/Interactive_rating_component'
+    },  
+    {
+      id: 6,
+      title: 'Frontend quiz app',
+      description: 'This project is a web-based quiz application that tests users knowledge of front-end development across four different topics. It was developed as the final challenge in the "JavaScript Fundamentals" course on Frontend Mentor.',
+      image: require('../assets/projects/14_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-frontend-quizz-app.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/Frontend_Quiz_app'
+    },  
+    {
+      id: 7,
+      title: 'Password generator app',
+      description: 'This project is an interactive password generator app that allows users to create strong passwords based on selected criteria. It includes a strength indicator, a clipboard copy feature, and a responsive design for an optimal user experience.',
+      image: require('../assets/projects/13_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-password-generator-app.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/Password-generator-app'
+    },  
+    {
+      id: 8,
+      title: 'Tip Calculator App',
+      description: 'This project is a tip calculator app designed to help users quickly split bills and calculate tips accurately. Built with TypeScript, it ensures precise real-time calculations and a smooth user experience.',
+      image: require('../assets/projects/12_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-tip-calculator-app.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/tip-calculator-app'
+    },  
+    {
+      id: 9,
+      title: 'Time Tracking Dashboard',
+      description: 'This project is a dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on **JSON data** and provides a responsive UI for a seamless experience across all devices.',
+      image: require('../assets/projects/11_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-time-tracking-dashboard.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/Time-tracking-dashboard'
+    }
   ]
 }
 // Leadership SECTION
