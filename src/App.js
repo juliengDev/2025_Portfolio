@@ -8,11 +8,12 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  data
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
-import Project from "./components/home/Project";
+import RecentProject from "./components/home/RecentProject.jsx";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
@@ -22,6 +23,7 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
+import AllProject from "./components/home/AllProject.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -42,19 +44,27 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
+      
       {repos.show && (
-        <Project
+        <RecentProject
           heading={repos.heading}
           username={repos.gitHubUsername}
           length={repos.reposLength}
           specfic={repos.specificRepos}
         />
       )}
+      {data.show && (
+        <AllProject  
+        heading={data.heading} 
+        projects={data.projects}  
+        />
+      )       
+      }
+      {
+        experiences.show && (
+          <Experience experiences={experiences}/>
+        )
+      }
       {leadership.show && (
         <Leadership
           heading={leadership.heading}

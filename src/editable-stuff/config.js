@@ -57,11 +57,11 @@ const about = {
   imageLink: require("../editable-stuff/julien.jpg"),
   imageSize: 375,
   message:
-    "Hey there! I'm Julien, a tech enthusiast who turned my IT expertise into a full-stack development journey. After 10+ years managing networks and systems, I caught the coding bug and never looked back. I love pushing boundaries and learning new things - it's what gets me out of bed in the morning! My sweet spot? Crafting modern web applications where performance meets security. Whether you need a blazing-fast website or a complex web app, I bring both my IT background and development skills to the table to create solutions that just work. Always up for a new challenge and excited to learn something new. Want to build something cool together?",
+    "Hey there! I'm Julien, a tech enthusiast who evolved from IT expert to full-stack developer. After 10+ years managing networks and systems, I discovered my passion for coding and turned it into a thrilling new chapter of my career. I love pushing boundaries and learning new things - it's what gets me out of bed in the morning! My sweet spot? Crafting modern web applications where performance meets security. Whether you need a blazing-fast website or a complex web app, I bring both my IT background and development skills to the table to create solutions that just work. Always up for a new challenge and excited to learn something new. Want to build something cool together?",
   resume: "https://drive.google.com/file/d/1FpBnXHI5D9qhGCL15jweMjpbun635sdH/view",
 };
 
-// PROJECTS SECTION
+// LAST PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
@@ -70,10 +70,42 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "juliengDev", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 2,
   specificRepos: [],
 };
 
+// PROJECTS SECTION 
+
+const data = {
+  show:"true",
+  heading: "My Projects",
+  projects: [
+    {
+    id: 1,
+    title: 'E-commerce product page',
+    description: 'An interactive and accessible e-commerce product page featuring a lightbox gallery and dynamic cart management!',
+    image: require('../assets/projects/19_desktop-preview.jpg'), 
+    liveDemo: 'https://juliengdev-e-commerce-product-page.netlify.app/',
+    githubLink: 'https://github.com/juliengDev/E-commerce_product_page'
+    },
+    {
+      id: 2,
+      title: 'News homepage',
+      description: 'The site is a news homepage focused on topics like Web 3.0, technology trends, and gaming. It features a clean, modern design with a focus on usability and responsiveness.',
+      image: require('../assets/projects/18_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-news-hompage.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/News_Homepage'
+    },
+    {
+      id: 3,
+      title: 'Contact form',
+      description: 'This project is an accessible contact form component that allows users to submit their inquiries while providing real-time validation feedback. It was developed with a strong focus on accessibility, keyboard navigation, and responsive design, following modern front-end development best practices.',
+      image: require('../assets/projects/17_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-contact-form.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/Contact_Form'
+    }  
+  ]
+}
 // Leadership SECTION
 const leadership = {
   show: false,
@@ -100,7 +132,7 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "HTML", value: 100 },
@@ -190,4 +222,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, data, skills, leadership, getInTouch, experiences };

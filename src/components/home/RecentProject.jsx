@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import Container from "react-bootstrap/Container";
 import { Jumbotron } from "./migration";
 import Row from "react-bootstrap/Row";
-import ProjectCard from "./ProjectCard";
+import RecentProjectCard from "./RecentProjectCard";
 import axios from "axios";
 
 const dummyProject = {
@@ -17,7 +17,7 @@ const API = "https://api.github.com";
 // const gitHubQuery = "/repos?sort=updated&direction=desc";
 // const specficQuerry = "https://api.github.com/repos/juliengDev/";
 
-const Project = ({ heading, username, length, specfic }) => {
+const RecentProject = ({ heading, username, length, specfic }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
   const specficReposAPI = `${API}/repos/${username}`;
   const dummyProjectsArr = new Array(length + specfic.length).fill(
@@ -62,20 +62,20 @@ const Project = ({ heading, username, length, specfic }) => {
   }, [fetchRepos]);
 
   return (
-    <Jumbotron fluid id="projects" className="bg-light m-0">
+    <Jumbotron fluid id="recent-projects" className="bg-light m-0">
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row >
           {projectsArray.length
             ? projectsArray.map((project, index) => (
-              <ProjectCard
+              <RecentProjectCard
                 key={`project-card-${index}`}
                 id={`project-card-${index}`}
                 value={project}
               />
             ))
             : dummyProjectsArr.map((project, index) => (
-              <ProjectCard
+              <RecentProjectCard
                 key={`dummy-${index}`}
                 id={`dummy-${index}`}
                 value={project}
@@ -87,4 +87,4 @@ const Project = ({ heading, username, length, specfic }) => {
   );
 };
 
-export default Project;
+export default RecentProject;
