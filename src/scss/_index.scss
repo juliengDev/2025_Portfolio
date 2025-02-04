@@ -129,3 +129,13 @@ code {
     animation: progress 1.5s ease-in-out forwards;
   }
 }
+
+.custom-cta-btn {
+  background-color: rgb(108, 117, 125) !important;
+}
+.custom-cta-btn:hover {
+  background-color: rgba(108, 117, 125, 0.5) !important;
+}
+.custom-cta-btn2  {
+  background-color: #000;
+}

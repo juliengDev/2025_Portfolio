@@ -1,4 +1,4 @@
-import { Button, Card, Col } from "react-bootstrap"
+import { Card, Col } from "react-bootstrap"
 
 function ProjectCard( {value}) {
   const {
@@ -23,23 +23,20 @@ function ProjectCard( {value}) {
       <Card.Body className="d-flex flex-column">
         <Card.Title className="text-center mb-3">{title}</Card.Title>
         <Card.Text className="text-center mb-4">{description}</Card.Text>
-        <div className="d-flex justify-content-center gap-3 mt-auto">
-          <Button 
-            variant="primary" 
+        
+          <div className="d-flex justify-content-center gap-3 mt-auto">
+          <div className="d-grid gap-2 d-md-block">
+          <a
             href={liveDemo}
-            target="_blank"
-            rel="noopener noreferrer"
+            target=" _blank"
+            className="custom-cta-btn btn btn-outline-secondary text-white mx-2"
           >
-            Live Demo
-          </Button>
-          <Button 
-            variant="outline-primary" 
-            href={githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </Button>
+            <i className="fas fa-globe" /> Live Demo
+          </a>
+          <a href={githubLink} target=" _blank" className="btn btn-outline-secondary mx-2">
+            <i className="fab fa-github" /> Repo
+          </a>
+          </div>
         </div>
       </Card.Body>
     </Card>

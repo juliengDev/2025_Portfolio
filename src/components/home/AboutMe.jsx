@@ -57,7 +57,14 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           {resume && (
             <p className="lead text-center">
               <a
-                className="btn btn-outline-dark btn-lg"
+              href="mailto:julien.gilbert.pro@gmail.com"
+              target=" _blank"
+              className="custom-cta-btn btn btn-lg btn-outline-secondary text-white mx-2"
+            >
+              <i className="far fa-envelope" /> Contact Me
+            </a>
+              <a
+                className="btn btn-outline-secondary btn-lg"
                 href={resume}
                 target="_blank"
                 rel="noreferrer noopener"
