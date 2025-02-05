@@ -9,13 +9,15 @@ const MainBody = React.forwardRef(
       <Jumbotron
         fluid
         id="home"
+        
         style={{
           background: `linear-gradient(136deg,${gradient})`,
           backgroundSize: "1200% 1200%",
+          overflow:"hidden"
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
-        <div id="stars"></div>
+        <div id="stars" ></div>
         <Container className="text-center">
           <h1 ref={ref} className="display-1">
             {title}

@@ -10,7 +10,7 @@ const mainBody = {
   firstName: "Julien",
   middleName: "",
   lastName: "Gilbert",
-  title: "Front End Developper",
+  title: "Front End Developer",
   message: "Passionate about transforming ideas into impactful digital experiences using modern technologies.",
   icons: [
     {
