@@ -11,7 +11,7 @@ export const Jumbotron = React.forwardRef((props, ref) => {
       style={bgStyle}
       ref={ref} // Attache la ref ici
     >
-      <div className="container py-5">{props.children}</div>
+      <div className="container py-3">{props.children}</div>
     </div>
   );
 });

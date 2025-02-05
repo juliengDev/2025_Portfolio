@@ -34,6 +34,7 @@ const Home = React.forwardRef((props, ref) => {
         message={mainBody.message}
         icons={mainBody.icons}
         ref={ref}
+        jobTitle={mainBody.title}
       />
       {about.show && (
         <AboutMe

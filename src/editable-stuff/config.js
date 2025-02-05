@@ -10,6 +10,7 @@ const mainBody = {
   firstName: "Julien",
   middleName: "",
   lastName: "Gilbert",
+  title: "Front End Developper",
   message: "Passionate about transforming ideas into impactful digital experiences using modern technologies.",
   icons: [
     {
@@ -57,7 +58,7 @@ const about = {
   imageLink: require("../editable-stuff/julien.jpg"),
   imageSize: 375,
   message:
-    "Hey there! I'm Julien, a tech enthusiast who evolved from IT expert to full-stack developer. After 10+ years managing networks and systems, I discovered my passion for coding and turned it into a thrilling new chapter of my career. I love pushing boundaries and learning new things - it's what gets me out of bed in the morning! My sweet spot? Crafting modern web applications where performance meets security. Whether you need a blazing-fast website or a complex web app, I bring both my IT background and development skills to the table to create solutions that just work. Always up for a new challenge and excited to learn something new. Want to build something cool together?",
+    "Hey there! I'm a problem-solving enthusiast who evolved from systems administrator to front-end developer. After spending ten years in IT infrastructure where I honed my analytical mindset, I found my true calling in bringing ideas to life through code. With a university degree in software development and over 40 projects under my belt, I specialize in crafting modern web applications that merge performance with reliability. When I'm not coding, you'll find me exploring the back roads of Asia on my scooter, where I split my time with France, always starting with a coffee at a local spot! Want to build something cool together?",
   resume: "https://drive.google.com/file/d/1FpBnXHI5D9qhGCL15jweMjpbun635sdH/view",
 };
 
@@ -147,7 +148,7 @@ const data = {
     {
       id: 9,
       title: 'Time Tracking Dashboard',
-      description: 'This project is a dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on **JSON data** and provides a responsive UI for a seamless experience across all devices.',
+      description: 'This project is a dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on JSON data and provides a responsive UI for a seamless experience across all devices.',
       image: require('../assets/projects/11_desktop-preview.jpg'), 
       liveDemo: 'https://juliengdev-time-tracking-dashboard.netlify.app/',
       githubLink: 'https://github.com/juliengDev/Time-tracking-dashboard'

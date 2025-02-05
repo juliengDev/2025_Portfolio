@@ -4,7 +4,7 @@ import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons }, ref) => {
+  ({ gradient, title, message, icons,jobTitle }, ref) => {
     return (
       <Jumbotron
         fluid
@@ -20,6 +20,7 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
+          <h2 className="mb-5">{jobTitle}</h2>
           <Typist>
             <div className="lead typist">
               {message}
