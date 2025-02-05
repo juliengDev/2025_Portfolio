@@ -2,6 +2,20 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { 
+  faGithub, 
+  faLinkedin, 
+  faFreeCodeCamp 
+} from '@fortawesome/free-brands-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+
+const iconMapping = {
+  faGithub: faGithub,
+  faLaptopCode: faLaptopCode,
+  faFreeCodeCamp: faFreeCodeCamp,
+  faLinkedin: faLinkedin
+};
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons,jobTitle }, ref) => {
@@ -37,7 +51,8 @@ const MainBody = React.forwardRef(
                 href={icon.url}
                 aria-label={`My ${icon.image.split("-")[1]}`}
               >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
+              <FontAwesomeIcon icon={iconMapping[icon.image]} className="fa-3x socialicons"/>
+              
               </a>
             ))}
           </div>

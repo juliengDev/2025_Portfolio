@@ -3,6 +3,8 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
 import axios from "axios";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const RecentProjectCard = ({ value }) => {
   const {
@@ -17,7 +19,7 @@ const RecentProjectCard = ({ value }) => {
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded h-100">
         <Card.Body>
-          <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
+          <Card.Title as="h3">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />
@@ -44,10 +46,10 @@ const CardButtons = ({ svn_url }) => {
         href={`${svn_url}/archive/master.zip`}
         className="btn btn-outline-secondary mx-2"
       >
-        <i className="fab fa-github" /> Clone Project
+        <FontAwesomeIcon icon={faGithub} /> Clone Project
       </a>
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mx-2">
-        <i className="fab fa-github" /> Repo
+        <FontAwesomeIcon icon={faGithub} /> Repo
       </a>
     </div>
   );

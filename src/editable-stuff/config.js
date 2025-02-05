@@ -1,4 +1,5 @@
 
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -14,21 +15,21 @@ const mainBody = {
   message: "Passionate about transforming ideas into impactful digital experiences using modern technologies.",
   icons: [
     {
-      image: "fa-solid fa-github",
+      image: "faGithub",
       url: "https://github.com/juliengDev",
     },
     {
-      image: "fa fa-laptop-code",
+      image: "faLaptopCode",
       url: "https://www.frontendmentor.io/profile/juliengDev",
     },
     
     {
-      image: "fab fa-free-code-camp",
+      image: "faFreeCodeCamp",
       url: "https://www.freecodecamp.org/JulienGilbert",
     },
     
     {
-      image: "fa-linkedin",
+      image: "faLinkedin",
       url: "https://www.linkedin.com/in/julien-gilbert-reactjs/",
     }
     // {

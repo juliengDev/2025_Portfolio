@@ -97,7 +97,8 @@ const App = () => {
 
   return (
     <BrowserRouter future={{
-      v7_startTransition: true, // Active le support pour startTransition
+      v7_startTransition: true,
+      v7_relativeSplatPath: true // Active le support pour startTransition
     }} basename={"/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>

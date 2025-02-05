@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'; 
 import axios from "axios";
 import { Jumbotron } from "./migration";
 
@@ -59,9 +60,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               <a
               href="mailto:julien.gilbert.pro@gmail.com"
               target=" _blank"
-              className="custom-cta-btn btn btn-lg btn-outline-secondary text-white mx-2"
+              className=" d-inline-flex align-items-center custom-cta-btn btn btn-lg btn-outline-secondary text-white mx-2"
             >
-              <i className="far fa-envelope" /> Contact Me
+              <FontAwesomeIcon icon={faEnvelope} className="me-2 "/> Contact Me
             </a>
               <a
                 className="btn btn-outline-secondary btn-lg"

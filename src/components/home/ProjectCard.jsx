@@ -1,4 +1,7 @@
 import { Card, Col } from "react-bootstrap"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function ProjectCard( {value}) {
   const {
@@ -31,10 +34,10 @@ function ProjectCard( {value}) {
             target=" _blank"
             className="custom-cta-btn btn btn-outline-secondary text-white mx-2"
           >
-            <i className="fas fa-globe" /> Live Demo
+            <FontAwesomeIcon icon={faGlobe} /> Live Demo
           </a>
           <a href={githubLink} target=" _blank" className="btn btn-outline-secondary mx-2">
-            <i className="fab fa-github" /> Repo
+            <FontAwesomeIcon icon={faGithub} /> Repo
           </a>
           </div>
         </div>
