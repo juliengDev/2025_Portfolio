@@ -85,7 +85,7 @@ const data = {
     {    
     id: 1,
       title: 'Frontend quiz App',
-      description: 'Web-based quiz application that tests users knowledge of front-end development across four different topics. It was developed as the final challenge in the "JavaScript Fundamentals" course on Frontend Mentor.',
+      description: 'Web-based quiz application that tests users knowledge of front-end development across four different topics.',
       image: require('../assets/projects/14_desktop-preview.jpg'), 
       liveDemo: 'https://juliengdev-frontend-quizz-app.netlify.app/',
       githubLink: 'https://github.com/juliengDev/Frontend_Quiz_app'
