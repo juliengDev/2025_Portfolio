@@ -1,5 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ReactGA from 'react-ga4';
+
 import {
   navBar,
   mainBody,
@@ -24,6 +26,10 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 import AllProject from "./components/home/AllProject.jsx";
+
+
+
+const TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID;
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -86,7 +92,18 @@ const Home = React.forwardRef((props, ref) => {
   );
 });
 
+
+
+
 const App = () => {
+ 
+  useEffect(() => {
+    if (TRACKING_ID) {
+      ReactGA.initialize(TRACKING_ID);
+      ReactGA.send({ hitType: "pageview", page: "/landingpage", title: "Landing Page" });
+    }
+  }, []);
+
   const titleRef = React.useRef();
   React.useEffect(() => {
     const { pathname } = window.location;
@@ -100,6 +117,7 @@ const App = () => {
       v7_startTransition: true,
       v7_relativeSplatPath: true // Active le support pour startTransition
     }} basename={"/"}>
+     
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
