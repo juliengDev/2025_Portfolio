@@ -99,15 +99,13 @@ const data = {
       githubLink: 'https://github.com/juliengDev/flashcards-app'
       
     },
-    {
+    {      
       id: 3,
-      title: 'Landing AI Powered Blockchain',
-      description: 'A responsive static landing page for GiftChain.ai, showcasing a sleek red-themed interface that presents AI and blockchain gift management solutions through modern design principles and seamless mobile adaptation.',
-      image: require('../assets/projects/10_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-landing-ai-powered.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/landing-AI-Powered-Blockchain'
-
-     
+      title: 'Interactive 2D portfolio',
+      description: 'Explore my interactive 2D portfolio, where you can navigate a virtual house to discover information about my work, all built with JavaScript and fully responsive across devices.',
+      image: require('../assets/projects/08_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-2d-portfolio.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/julien-gilbert-portfolio'     
     },  
     {
       id: 4,
@@ -119,11 +117,13 @@ const data = {
     },  
     {
       id: 5,
-    title: 'E-commerce product page',
-    description: 'An interactive and accessible e-commerce product page featuring a lightbox gallery and dynamic cart management!',
-    image: require('../assets/projects/19_desktop-preview.jpg'), 
-    liveDemo: 'https://juliengdev-e-commerce-product-page.netlify.app/',
-    githubLink: 'https://github.com/juliengDev/E-commerce_product_page'
+      title: 'Landing AI Powered Blockchain',
+      description: 'A responsive static landing page for GiftChain.ai, showcasing a sleek red-themed interface that presents AI and blockchain gift management solutions through modern design principles and seamless mobile adaptation.',
+      image: require('../assets/projects/10_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-landing-ai-powered.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/landing-AI-Powered-Blockchain'     
+      
+     
     },  
     {
       id: 6,
@@ -164,6 +164,22 @@ const data = {
       image: require('../assets/projects/18_desktop-preview.jpg'), 
       liveDemo: 'https://juliengdev-news-hompage.netlify.app/',
       githubLink: 'https://github.com/juliengDev/News_Homepage'
+    },
+    {
+      id: 11,
+      title: 'E-commerce product page',
+      description: 'An interactive and accessible e-commerce product page featuring a lightbox gallery and dynamic cart management!',
+      image: require('../assets/projects/19_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-e-commerce-product-page.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/E-commerce_product_page'      
+    },
+    {
+      id: 12,
+      title: 'Newsletter sign-up form with success message',
+      description: 'A responsive newsletter sign-up form that validates email input, displays a success message, and adapts to different devices with interactive hover and focus states.',
+      image: require('../assets/projects/07_desktop-preview.jpg'), 
+      liveDemo: 'https://juliengdev-newsletter-sign-up.netlify.app/',
+      githubLink: 'https://github.com/juliengDev/Newsletter_sign-up_form'      
     }
   ]
 }
