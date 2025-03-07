@@ -1,5 +1,3 @@
-
-
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -22,16 +20,16 @@ const mainBody = {
       image: "faLaptopCode",
       url: "https://www.frontendmentor.io/profile/juliengDev",
     },
-    
+
     {
       image: "faFreeCodeCamp",
       url: "https://www.freecodecamp.org/JulienGilbert",
     },
-    
+
     {
       image: "faLinkedin",
       url: "https://www.linkedin.com/in/julien-gilbert-reactjs/",
-    }
+    },
     // {
     //   image: "fa-twitter",
     //   url: "https://www.twitter.com/Gylbi/",
@@ -76,113 +74,116 @@ const repos = {
   specificRepos: [],
 };
 
-// PROJECTS SECTION 
+// PROJECTS SECTION
 
 const data = {
-  show:"true",
+  show: "true",
   heading: "My Projects",
   projects: [
-    {    
-    id: 1,
-      title: 'Frontend quiz App',
-      description: 'Web-based quiz application that tests users knowledge of front-end development across four different topics.',
-      image: require('../assets/projects/14_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-frontend-quizz-app.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/Frontend_Quiz_app'
+    {
+      id: 1,
+      title: "Frontend quiz App",
+      description: "Web-based quiz application that tests users knowledge of front-end development across four different topics.",
+      image: require("../assets/projects/14_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-frontend-quizz-app.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Frontend_Quiz_app",
     },
     {
       id: 2,
-      title: 'Flashcards App',
-      description: 'Flashcard app to help you with your revisions. Create and study your own revision cards interactively.',
-      image: require('../assets/projects/09_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-flashcards-app.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/flashcards-app'
-      
+      title: "Flashcards App",
+      description: "Flashcard app to help you with your revisions. Create and study your own revision cards interactively.",
+      image: require("../assets/projects/09_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-flashcards-app.netlify.app/",
+      githubLink: "https://github.com/juliengDev/flashcards-app",
     },
-    {      
+    {
       id: 3,
-      title: 'Interactive 2D portfolio',
-      description: 'Explore my interactive 2D portfolio, where you can navigate a virtual house to discover information about my work, all built with JavaScript and fully responsive across devices.',
-      image: require('../assets/projects/08_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-2d-portfolio.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/julien-gilbert-portfolio'     
-    },  
+      title: "Interactive 2D portfolio",
+      description: "Explore my interactive 2D portfolio, where you can navigate a virtual house to discover information about my work, all built with JavaScript and fully responsive across devices.",
+      image: require("../assets/projects/08_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-2d-portfolio.netlify.app/",
+      githubLink: "https://github.com/juliengDev/julien-gilbert-portfolio",
+    },
     {
       id: 4,
-      title: 'Interactive rating component',
-      description: 'Interactive web component that allows users to rate from 1 to 5 stars and display the result in a modal. It was developed with a focus on accessibility and best practices in front-end development.',
-      image: require('../assets/projects/15_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-interactive-rating.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/Interactive_rating_component'
-    },  
+      title: "Interactive rating component",
+      description:
+        "Interactive web component that allows users to rate from 1 to 5 stars and display the result in a modal. It was developed with a focus on accessibility and best practices in front-end development.",
+      image: require("../assets/projects/15_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-interactive-rating.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Interactive_rating_component",
+    },
     {
       id: 5,
-      title: 'Landing AI Powered Blockchain',
-      description: 'Responsive static landing page for GiftChain.ai, showcasing a sleek red-themed interface that presents AI and blockchain gift management solutions through modern design principles and seamless mobile adaptation.',
-      image: require('../assets/projects/10_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-landing-ai-powered.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/landing-AI-Powered-Blockchain'     
-      
-     
-    },  
+      title: "Landing AI Powered Blockchain",
+      description:
+        "Responsive static landing page for GiftChain.ai, showcasing a sleek red-themed interface that presents AI and blockchain gift management solutions through modern design principles and seamless mobile adaptation.",
+      image: require("../assets/projects/10_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-landing-ai-powered.netlify.app/",
+      githubLink: "https://github.com/juliengDev/landing-AI-Powered-Blockchain",
+    },
     {
       id: 6,
-      title: 'Password generator App',
-      description: 'Interactive password generator app that allows users to create strong passwords based on selected criteria. It includes a strength indicator, a clipboard copy feature, and a responsive design for an optimal user experience.',
-      image: require('../assets/projects/13_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-password-generator-app.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/Password-generator-app'
-    },  
+      title: "Password generator App",
+      description:
+        "Interactive password generator app that allows users to create strong passwords based on selected criteria. It includes a strength indicator, a clipboard copy feature, and a responsive design for an optimal user experience.",
+      image: require("../assets/projects/13_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-password-generator-app.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Password-generator-app",
+    },
     {
       id: 7,
-      title: 'Tip Calculator App',
-      description: 'Tip calculator app designed to help users quickly split bills and calculate tips accurately. Built with TypeScript, it ensures precise real-time calculations and a smooth user experience.',
-      image: require('../assets/projects/12_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-tip-calculator-app.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/tip-calculator-app'
-    },  
+      title: "Tip Calculator App",
+      description:
+        "Tip calculator app designed to help users quickly split bills and calculate tips accurately. Built with TypeScript, it ensures precise real-time calculations and a smooth user experience.",
+      image: require("../assets/projects/12_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-tip-calculator-app.netlify.app/",
+      githubLink: "https://github.com/juliengDev/tip-calculator-app",
+    },
     {
       id: 8,
-      title: 'Time Tracking Dashboard App',
-      description: 'Dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on JSON data and provides a responsive UI for a seamless experience across all devices.',
-      image: require('../assets/projects/11_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-time-tracking-dashboard.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/Time-tracking-dashboard'
+      title: "Time Tracking Dashboard App",
+      description:
+        "Dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on JSON data and provides a responsive UI for a seamless experience across all devices.",
+      image: require("../assets/projects/11_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-time-tracking-dashboard.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Time-tracking-dashboard",
     },
     {
       id: 9,
-      title: 'Contact form app',
-      description: 'Accessible contact form component that allows users to submit their inquiries while providing real-time validation feedback. It was developed with a strong focus on accessibility, keyboard navigation, and responsive design, following modern front-end development best practices.',
-      image: require('../assets/projects/17_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-contact-form.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/Contact_Form'
+      title: "Contact form app",
+      description:
+        "Accessible contact form component that allows users to submit their inquiries while providing real-time validation feedback. It was developed with a strong focus on accessibility, keyboard navigation, and responsive design, following modern front-end development best practices.",
+      image: require("../assets/projects/17_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-contact-form.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Contact_Form",
     },
     {
       id: 10,
-      title: 'News homepage',
-      description: 'News homepage website focused on topics like Web 3.0, technology trends, and gaming. It features a clean, modern design with a focus on usability and responsiveness.',
-      image: require('../assets/projects/18_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-news-hompage.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/News_Homepage'
+      title: "News homepage",
+      description: "News homepage website focused on topics like Web 3.0, technology trends, and gaming. It features a clean, modern design with a focus on usability and responsiveness.",
+      image: require("../assets/projects/18_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-news-hompage.netlify.app/",
+      githubLink: "https://github.com/juliengDev/News_Homepage",
     },
     {
       id: 11,
-      title: 'E-commerce product page',
-      description: 'Interactive and accessible e-commerce product page featuring a lightbox gallery and dynamic cart management!',
-      image: require('../assets/projects/19_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-e-commerce-product-page.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/E-commerce_product_page'      
+      title: "E-commerce product page",
+      description: "Interactive and accessible e-commerce product page featuring a lightbox gallery and dynamic cart management!",
+      image: require("../assets/projects/19_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-e-commerce-product-page.netlify.app/",
+      githubLink: "https://github.com/juliengDev/E-commerce_product_page",
     },
     {
       id: 12,
-      title: 'Newsletter sign-up form with success message',
-      description: 'Responsive newsletter sign-up form that validates email input, displays a success message, and adapts to different devices with interactive hover and focus states.',
-      image: require('../assets/projects/07_desktop-preview.jpg'), 
-      liveDemo: 'https://juliengdev-newsletter-sign-up.netlify.app/',
-      githubLink: 'https://github.com/juliengDev/Newsletter_sign-up_form'      
-    }
-  ]
-}
+      title: "Newsletter sign-up form with success message",
+      description: "Responsive newsletter sign-up form that validates email input, displays a success message, and adapts to different devices with interactive hover and focus states.",
+      image: require("../assets/projects/07_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-newsletter-sign-up.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Newsletter_sign-up_form",
+    },
+  ],
+};
 // Leadership SECTION
 const leadership = {
   show: false,
@@ -190,21 +191,21 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/julien.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/julien.jpg"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
-    { 
-      img: require("../editable-stuff/julien.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/julien.jpg"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
-  }
+    width: "615",
+    height: "450",
+  },
 };
 
 // SKILLS SECTION
@@ -247,56 +248,56 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Front-End Developer',// Here Add Company Name
-      companylogo: require('../assets/img/wealth.jpeg'),
-      date: 'March 2024 - June 2024',
+      role: "Front-End Developer", // Here Add Company Name
+      companylogo: require("../assets/img/wealth.jpeg"),
+      date: "March 2024 - June 2024",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/argent.jpeg'),
-      date: 'Jan 2024 - Feb 2024',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/argent.jpeg"),
+      date: "Jan 2024 - Feb 2024",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/sportsee.png'),
-      date: 'Nov 2023 - Dec 2023',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/sportsee.png"),
+      date: "Nov 2023 - Dec 2023",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/kasa.png'),
-      date: 'Aug 2023 - Sept 2023',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/kasa.png"),
+      date: "Aug 2023 - Sept 2023",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/learn.png'),
-      date: 'Jul 2023 - Aug 2023',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/learn.png"),
+      date: "Jul 2023 - Aug 2023",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/billed.png'),
-      date: 'Mai 2023 - Jul 2023',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/billed.png"),
+      date: "Mai 2023 - Jul 2023",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/plats.png'),
-      date: 'Feb 2023 - Mai 2023',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/plats.png"),
+      date: "Feb 2023 - Mai 2023",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/fish.png'),
-      date: 'Nov 2022 - Jan 2023',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/fish.png"),
+      date: "Nov 2022 - Jan 2023",
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/game.png'),
-      date: 'Oct 2022 - Nov 2022',
+      role: "Front-End Developer",
+      companylogo: require("../assets/img/game.png"),
+      date: "Oct 2022 - Nov 2022",
     },
-  ]
-}
+  ],
+};
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+const blog = {
+  show: true,
+};
 
-export { navBar, mainBody, about, repos, data, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, data, skills, leadership, getInTouch, experiences, blog };

@@ -1,40 +1,32 @@
 import React from "react";
-import { BlogBuilder } from "./BlogBuilder";
 import bloglist from "../../editable-stuff/blog";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 const Blog = (props) => {
   return (
-    <div className="container-lg mt-5 bg-blue">
-      <h1 className="text-center">Blogs</h1>
+    <div className="container-lg bg-blue" style={{ margin: "140px auto" }}>
+      <h1 className="text-center display-4 ">Blog</h1>
       {bloglist.map((value, index) => {
-        return (
-          <BlogCard
-            key={index}
-            title={value.title}
-            description={value.description}
-            index={index}
-          />
-        );
+        return <BlogCard key={index} image={value.image} title={value.title} description={value.description} index={index} />;
       })}
     </div>
   );
 };
 
 const BlogCard = ({ index, title, image, description }) => {
+  const location = useLocation();
+  const basePath = location.pathname.includes("/blog") ? "" : "/blog/";
   return (
-    <div className="m-5">
+    <div className="m-5 ">
       <div className="">
         <div className="row">
           <div className="col-4 col-lg-12">
-            {/* <img src={image} className="card-img" alt="..." /> */}
+            <img src={image} style={{ width: "360px", marginBottom: "3rem" }} alt="..." />
           </div>
           <div className="col-8 col-lg-12">
             <div className="">
               <h1 className="">{title}</h1>
               <p className="lead">{description}</p>
-              <Link to={`${process.env.PUBLIC_URL}blog/${index}`}>
-                Read more...{" "}
-              </Link>
+              <Link to={`${process.env.PUBLIC_URL}${basePath}${index}`}>Read more...</Link>
             </div>
           </div>
         </div>
@@ -44,4 +36,4 @@ const BlogCard = ({ index, title, image, description }) => {
   );
 };
 
-export { Blog, BlogBuilder };
+export { Blog };
