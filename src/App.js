@@ -16,6 +16,7 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 import AllProject from "./components/home/AllProject.jsx";
+import ScrollToTop from "./components/ui/ScrollToTop.jsx";
 
 const TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID;
 
@@ -67,6 +68,7 @@ const App = () => {
       }}
       basename={"/"}
     >
+      <ScrollToTop />
       {navBar.show && <Navbar ref={titleRef} navbarMenuRef={navbarMenuRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />

@@ -90,11 +90,12 @@ const data = {
     },
     {
       id: 2,
-      title: "Flashcards App",
-      description: "Flashcard app to help you with your revisions. Create and study your own revision cards interactively.",
-      image: require("../assets/projects/09_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-flashcards-app.netlify.app/",
-      githubLink: "https://github.com/juliengDev/flashcards-app",
+      title: "The Wild Oasis App",
+      description:
+        'A comprehensive internal hotel management application built with React that handles bookings, cabins, check-ins, and guests for "The Wild Oasis", a boutique hotel with 8 luxurious wooden cabins.',
+      image: require("../assets/projects/20_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-wildoasis.netlify.app",
+      githubLink: "https://github.com/juliengDev/wild-oasis",
     },
     {
       id: 3,
@@ -106,15 +107,23 @@ const data = {
     },
     {
       id: 4,
-      title: "Interactive rating component",
-      description:
-        "Interactive web component that allows users to rate from 1 to 5 stars and display the result in a modal. It was developed with a focus on accessibility and best practices in front-end development.",
-      image: require("../assets/projects/15_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-interactive-rating.netlify.app/",
-      githubLink: "https://github.com/juliengDev/Interactive_rating_component",
+      title: "Tic_Tac_Toe",
+      description: "An interactive and modern Tic Tac Toe game featuring both CPU vs Player and Player vs Player modes with advanced animations and a responsive design.",
+      image: require("../assets/projects/21_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-tictactoe.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Tic_Tac_Toe",
     },
     {
       id: 5,
+      title: "Sports Analytics Dashboard App",
+      description:
+        "SportSee is an interactive sports coaching analytics dashboard built with React. This project visualizes user fitness data through advanced charts and diagrams, providing a comprehensive view of athletic performance and progress.",
+      image: require("../assets/projects/22_desktop-preview.png"),
+      liveDemo: "https://github.com/juliengDev/OPC_Projet_12",
+      githubLink: "https://github.com/juliengDev/OPC_Projet_12",
+    },
+    {
+      id: 6,
       title: "Landing AI Powered Blockchain",
       description:
         "Responsive static landing page for GiftChain.ai, showcasing a sleek red-themed interface that presents AI and blockchain gift management solutions through modern design principles and seamless mobile adaptation.",
@@ -123,7 +132,7 @@ const data = {
       githubLink: "https://github.com/juliengDev/landing-AI-Powered-Blockchain",
     },
     {
-      id: 6,
+      id: 7,
       title: "Password generator App",
       description:
         "Interactive password generator app that allows users to create strong passwords based on selected criteria. It includes a strength indicator, a clipboard copy feature, and a responsive design for an optimal user experience.",
@@ -132,7 +141,7 @@ const data = {
       githubLink: "https://github.com/juliengDev/Password-generator-app",
     },
     {
-      id: 7,
+      id: 8,
       title: "Tip Calculator App",
       description:
         "Tip calculator app designed to help users quickly split bills and calculate tips accurately. Built with TypeScript, it ensures precise real-time calculations and a smooth user experience.",
@@ -141,22 +150,13 @@ const data = {
       githubLink: "https://github.com/juliengDev/tip-calculator-app",
     },
     {
-      id: 8,
+      id: 9,
       title: "Time Tracking Dashboard App",
       description:
         "Dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on JSON data and provides a responsive UI for a seamless experience across all devices.",
       image: require("../assets/projects/11_desktop-preview.jpg"),
       liveDemo: "https://juliengdev-time-tracking-dashboard.netlify.app/",
       githubLink: "https://github.com/juliengDev/Time-tracking-dashboard",
-    },
-    {
-      id: 9,
-      title: "Contact form app",
-      description:
-        "Accessible contact form component that allows users to submit their inquiries while providing real-time validation feedback. It was developed with a strong focus on accessibility, keyboard navigation, and responsive design, following modern front-end development best practices.",
-      image: require("../assets/projects/17_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-contact-form.netlify.app/",
-      githubLink: "https://github.com/juliengDev/Contact_Form",
     },
     {
       id: 10,
@@ -181,6 +181,32 @@ const data = {
       image: require("../assets/projects/07_desktop-preview.jpg"),
       liveDemo: "https://juliengdev-newsletter-sign-up.netlify.app/",
       githubLink: "https://github.com/juliengDev/Newsletter_sign-up_form",
+    },
+    {
+      id: 13,
+      title: "Flashcards App",
+      description: "Flashcard app to help you with your revisions. Create and study your own revision cards interactively.",
+      image: require("../assets/projects/09_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-flashcards-app.netlify.app/",
+      githubLink: "https://github.com/juliengDev/flashcards-app",
+    },
+    {
+      id: 14,
+      title: "Interactive rating component",
+      description:
+        "Interactive web component that allows users to rate from 1 to 5 stars and display the result in a modal. It was developed with a focus on accessibility and best practices in front-end development.",
+      image: require("../assets/projects/15_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-interactive-rating.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Interactive_rating_component",
+    },
+    {
+      id: 15,
+      title: "Contact form app",
+      description:
+        "Accessible contact form component that allows users to submit their inquiries while providing real-time validation feedback. It was developed with a strong focus on accessibility, keyboard navigation, and responsive design, following modern front-end development best practices.",
+      image: require("../assets/projects/17_desktop-preview.jpg"),
+      liveDemo: "https://juliengdev-contact-form.netlify.app/",
+      githubLink: "https://github.com/juliengDev/Contact_Form",
     },
   ],
 };

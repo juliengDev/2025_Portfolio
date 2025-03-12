@@ -1,14 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import {
-  Col,
-} from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 const ExperienceCard = ({ data }) => {
   return (
     <Col lg="4" md="6" sm="12" className="mb-4">
-     <div className="d-flex flex-column align-items-center justify-content-between text-center">
-        <img className="img-fluid w-25 pb-4" src={data.companylogo} alt="Company Logo"/>
+      <div className="d-flex flex-column align-items-center justify-content-between text-center">
+        <img className="img-fluid w-25 mx-auto pb-4" src={data.companylogo} alt="Company Logo" />
         <p className="lead">
           {data.role}
           <br />
@@ -17,6 +15,6 @@ const ExperienceCard = ({ data }) => {
       </div>
     </Col>
   );
-}
+};
 
 export default ExperienceCard;
