@@ -1,64 +1,64 @@
 const article1Content = (
   <>
     <p className="lead text-muted mb-4">
-      Aujourd'hui, je souhaite partager une approche qui a transformé ma façon de construire des composants React : le pattern "Compound Component" combiné avec Context API. Si vous avez déjà
-      travaillé sur des composants complexes comme une Modal, vous savez que gérer l'état et les props peut rapidement devenir compliqué.
+      Today, I want to share an approach that has transformed the way I build React components: the "Compound Component" pattern combined with the Context API. If you've ever worked on complex
+      components like a Modal, you know that managing state and props can quickly become cumbersome.
     </p>
 
-    <h2 className="mt-5 mb-4">Pourquoi ce pattern est un game-changer</h2>
+    <h2 className="mt-5 mb-4">Why This Pattern is a Game-Changer</h2>
 
     <div className="mb-4">
       <ol className="fs-5">
         <li className="mb-2">
-          <strong>API plus intuitive et déclarative</strong> - La structure JSX reflète directement la structure visuelle
+          <strong>More intuitive and declarative API </strong> - The JSX structure directly reflects the visual structure.
         </li>
         <li className="mb-2">
-          <strong>Meilleure flexibilité et composition</strong> - Personnalisez facilement l'ordre et l'inclusion des éléments
+          <strong>Better flexibility and composition </strong> - Easily customize the order and inclusion of elements.
         </li>
         <li className="mb-2">
-          <strong>Séparation des préoccupations</strong> - Chaque sous-composant a une responsabilité unique
+          <strong>Separation of concerns</strong> - Each subcomponent has a unique responsibility.
         </li>
         <li className="mb-2">
-          <strong>Réduction du prop drilling</strong> - Context API élimine le besoin de passer des props en profondeur
+          <strong>Reduced prop drilling</strong> - The Context API eliminates the need to pass props deeply.
         </li>
       </ol>
     </div>
 
-    <h2 className="mt-5 mb-4">L'approche traditionnelle</h2>
+    <h2 className="mt-5 mb-4">The Traditional Approach</h2>
 
-    <p className="mb-3">Traditionnellement, on implémenterait une Modal de cette façon :</p>
+    <p className="mb-3">Traditionally, we would implement a Modal like this:</p>
 
     <img className="mb-3" src="/blog/article1/code1.png" width={800} alt="code snippet" />
 
-    <p className="mb-4">Cette approche fonctionne, mais devient rigide quand on veut personnaliser davantage.</p>
+    <p className="mb-4">This approach works but becomes rigid when you want more customization.</p>
 
-    <h2 className="mt-5 mb-4">Implémentation avec Compound Component + Context API</h2>
+    <h2 className="mt-5 mb-4">Implementation with Compound Component + Context API</h2>
 
-    <p className="mb-3">Avec le pattern Compound Component + Context API, nous pouvons transformer cela en une API beaucoup plus élégante :</p>
+    <p className="mb-3">With the Compound Component pattern and Context API, we can transform this into a much more elegant API:</p>
 
     <img className="mb-3" src="/blog/article1/code2.png" width={800} alt="code snippet" />
 
-    <h2 className="mt-5 mb-4">Comment utiliser ce composant</h2>
+    <h2 className="mt-5 mb-4">How to Use This Component</h2>
 
-    <p className="mb-3">Voici comment on utilise maintenant notre Modal avec le pattern Compound Component :</p>
+    <p className="mb-3">Here's how we now use our Modal with the Compound Component pattern:</p>
 
     <img className="mb-3" src="/blog/article1/code3.png" width={800} alt="code snippet" />
 
-    <h2 className="mt-5 mb-4">Les avantages clés de cette approche</h2>
+    <h2 className="mt-5 mb-4">Key Advantages of This Approach</h2>
 
     <div className="mb-5">
       <ul className="fs-5">
         <li className="mb-2">
-          <strong>Contrôle total sur la structure</strong> - Vous pouvez arranger librement vos sous-composants selon vos besoins
+          <strong>Full control over structure</strong> - You can freely arrange your subcomponents as needed.
         </li>
         <li className="mb-2">
-          <strong>API intuitive</strong> - La structure JSX reflète naturellement la structure visuelle du composant
+          <strong>Intuitive API</strong> - The JSX structure naturally reflects the component’s visual structure.
         </li>
         <li className="mb-2">
-          <strong>Isolation de l'état</strong> - Context API gère l'état interne, accessible uniquement où nécessaire
+          <strong>State isolation</strong> - The Context API manages internal state, making it accessible only where needed.
         </li>
         <li className="mb-2">
-          <strong>Extensibilité</strong> - Il est facile d'ajouter de nouveaux sous-composants sans modifier le code existant
+          <strong>Extensibility </strong> - It’s easy to add new subcomponents without modifying existing code.
         </li>
       </ul>
     </div>
@@ -66,11 +66,11 @@ const article1Content = (
     <h2 className="mt-5 mb-4">Conclusion</h2>
 
     <p className="mb-4">
-      Cette approche m'a permis de construire des composants plus maintenables et flexibles qui s'adaptent facilement aux changements de design. Le pattern Compound Component combiné avec Context API
-      offre une expérience de développement plus agréable tout en produisant un code plus propre et plus facile à utiliser.
+      This approach has allowed me to build more maintainable and flexible components that easily adapt to design changes. The Compound Component pattern combined with the Context API provides a
+      better development experience while producing cleaner and more user-friendly code.
     </p>
 
-    <p className="mb-3">N'hésitez pas à expérimenter ce pattern dans vos propres projets React !</p>
+    <p className="mb-3">Feel free to experiment with this pattern in your own React projects!</p>
 
     <div className="alert alert-secondary mt-5">
       <p className="mb-0">

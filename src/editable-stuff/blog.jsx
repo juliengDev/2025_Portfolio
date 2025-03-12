@@ -4,10 +4,10 @@ const bloglist = [];
 
 const blog = {
   id: 0,
-  title: "Élever votre code React avec le pattern Compound Component + Context API",
-  image: "/blog/article1/article_1.jpg",
+  title: "Elevate Your React Code with the Compound Component Pattern + Context API",
+  image: "/blog/article1/article_1.png",
   description:
-    "Découvrez comment utiliser le pattern Compound Component avec Context API pour créer des composants React plus flexibles, maintenables et intuitifs, illustré par un exemple de composant Modal.",
+    "Discover how to use the Compound Component pattern with the Context API to create more flexible, maintainable and intuitive React components, illustrated by an example of a Modal component.",
   getBlog: function () {
     return article1Content;
   },

@@ -1,14 +1,18 @@
 import React from "react";
 import bloglist from "../../editable-stuff/blog";
 import { Link, useLocation } from "react-router-dom";
+import { Jumbotron } from "../home/migration";
+
 const Blog = (props) => {
   return (
-    <div className="container-lg bg-blue" style={{ margin: "140px auto" }}>
-      <h1 className="text-center display-4 ">Blog</h1>
-      {bloglist.map((value, index) => {
-        return <BlogCard key={index} image={value.image} title={value.title} description={value.description} index={index} />;
-      })}
-    </div>
+    <Jumbotron fluid id="blog" className="bg-light m-4">
+      <div className="container-lg bg-blue">
+        <h1 className="text-center display-4 ">Blog</h1>
+        {bloglist.map((value, index) => {
+          return <BlogCard key={index} image={value.image} title={value.title} description={value.description} index={index} />;
+        })}
+      </div>
+    </Jumbotron>
   );
 };
 

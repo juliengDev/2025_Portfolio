@@ -31,9 +31,9 @@ const Home = React.forwardRef((props, ref) => {
         jobTitle={mainBody.title}
       />
       {about.show && <AboutMe heading={about.heading} message={about.message} link={about.imageLink} imgSize={about.imageSize} resume={about.resume} />}
-      {blog.show && <Blog />}
       {repos.show && <RecentProject heading={repos.heading} username={repos.gitHubUsername} length={repos.reposLength} specfic={repos.specificRepos} />}
       {data.show && <AllProject heading={data.heading} projects={data.projects} />}
+      {blog.show && <Blog />}
       {experiences.show && <Experience experiences={experiences} />}
       {leadership.show && <Leadership heading={leadership.heading} message={leadership.message} img={leadership.images} imageSize={leadership.imageSize} />}
       {skills.show && <Skills heading={skills.heading} hardSkills={skills.hardSkills} softSkills={skills.softSkills} />}

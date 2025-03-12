@@ -42,9 +42,9 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav mr-auto align-items-center">
           <Nav.Item className="nav-item lead">
-            <Link className="nav-link" to={process.env.PUBLIC_URL + "/blog"}>
+            <a className="nav-link" href={process.env.PUBLIC_URL + "/#blog"}>
               Blog
-            </Link>
+            </a>
           </Nav.Item>
 
           {repos.show && (
