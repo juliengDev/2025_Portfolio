@@ -40,40 +40,40 @@ const Navigation = React.forwardRef((props, ref) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar-nav mr-auto align-items-center">
+        <Nav className="navbar-nav mr-auto  align-items-end">
           <Nav.Item className="nav-item lead">
-            <a className="nav-link" href={process.env.PUBLIC_URL + "/#blog"}>
+            <Link className="nav-link" to="/#blog" onClick={() => (window.location.hash = "#blog")}>
               Blog
-            </a>
+            </Link>
           </Nav.Item>
 
           {repos.show && (
             <Nav.Item className="nav-item lead">
-              <a className="nav-link" href={process.env.PUBLIC_URL + "/#projects"}>
+              <Link className="nav-link" to="/#projects" onClick={() => (window.location.hash = "#projects")}>
                 Projects
-              </a>
+              </Link>
             </Nav.Item>
           )}
 
           <Nav.Item className="nav-item lead">
-            <a className="nav-link" href={about.resume} target="_blank" rel="noreferrer noopener">
+            <Link className="nav-link" to={about.resume} target="_blank" rel="noreferrer noopener">
               Resume
-            </a>
+            </Link>
           </Nav.Item>
 
           {about.show && (
             <Nav.Item className="nav-item lead">
-              <a className="nav-link" href={process.env.PUBLIC_URL + "/#aboutme"}>
+              <Link className="nav-link" to="/#aboutme" onClick={() => (window.location.hash = "#aboutme")}>
                 About
-              </a>
+              </Link>
             </Nav.Item>
           )}
 
           {skills.show && (
             <Nav.Item className="nav-item lead">
-              <a className="nav-link" href={process.env.PUBLIC_URL + "/#skills"}>
+              <Link className="nav-link" to="/#skills" onClick={() => (window.location.hash = "#skills")}>
                 Skills
-              </a>
+              </Link>
             </Nav.Item>
           )}
         </Nav>

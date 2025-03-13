@@ -28,7 +28,7 @@ const article1Content = (
 
     <p className="mb-3">Traditionally, we would implement a Modal like this:</p>
 
-    <img className="mb-3" src="/blog/article1/code1.png" width={800} alt="code snippet" />
+    <img className="mb-3 img-fluid w-100" src="/blog/article1/code1.webp" width={800} alt="code snippet" />
 
     <p className="mb-4">This approach works but becomes rigid when you want more customization.</p>
 
@@ -36,13 +36,13 @@ const article1Content = (
 
     <p className="mb-3">With the Compound Component pattern and Context API, we can transform this into a much more elegant API:</p>
 
-    <img className="mb-3" src="/blog/article1/code2.png" width={800} alt="code snippet" />
+    <img className="mb-3 img-fluid w-100" src="/blog/article1/code2.webp" width={800} alt="code snippet" />
 
     <h2 className="mt-5 mb-4">How to Use This Component</h2>
 
     <p className="mb-3">Here's how we now use our Modal with the Compound Component pattern:</p>
 
-    <img className="mb-3" src="/blog/article1/code3.png" width={800} alt="code snippet" />
+    <img className="mb-3 img-fluid w-100" src="/blog/article1/code3.webp" width={800} alt="code snippet" />
 
     <h2 className="mt-5 mb-4">Key Advantages of This Approach</h2>
 

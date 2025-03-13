@@ -6,12 +6,12 @@ const BlogPost = () => {
   const post = bloglist[id];
 
   return (
-    <div className="container-lg" style={{ margin: "140px auto" }}>
+    <div className="container-lg" style={{ margin: "100px auto" }}>
       {post && (
         <div>
-          <h1 className="display-2 text-center">{post.title}</h1>
+          <h1 className="display-5 text-center mb-5">{post.title}</h1>
           <div className="text-center m-3">
-            <img className="img-fluid m-4" style={{ width: "40rem" }} src={post.image} alt={post.title} />
+            <img className="img-fluid w-100" src={post.image} alt={post.title} />
           </div>
           {post.getBlog()}
         </div>

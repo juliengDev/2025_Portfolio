@@ -22,9 +22,9 @@ const BlogCard = ({ index, title, image, description }) => {
   return (
     <div className="m-5 ">
       <div className="">
-        <div className="row d-flex flex-lg-row flex-column w-100">
-          <div className="col-4 col-lg-12 ">
-            <img src={image} style={{ width: "360px", marginBottom: "3rem" }} alt="..." />
+        <div className="row d-flex flex-lg-row flex-column ">
+          <div className="col-8 col-lg-6 ">
+            <img src={image} className="img-fluid w-100" style={{ marginBottom: "3rem" }} alt="..." />
           </div>
           <div className="col-12 col-lg-12">
             <div className="">
