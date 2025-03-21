@@ -58,7 +58,7 @@ const about = {
   imageSize: 375,
   message:
     "Hey there! I'm a problem-solving enthusiast who evolved from systems administrator to front-end developer. After spending ten years in IT infrastructure where I honed my analytical mindset, I found my true calling in bringing ideas to life through code. With a university degree in software development and over 40 projects under my belt, I specialize in crafting modern web applications that merge performance with reliability. When I'm not coding, you'll find me exploring the back roads of Asia on my scooter, where I split my time with France, always starting with a coffee at a local spot! Want to build something cool together?",
-  resume: "https://drive.google.com/file/d/1FpBnXHI5D9qhGCL15jweMjpbun635sdH/view",
+  resume: "https://drive.google.com/file/d/176_Oec2qCdttUrEV0-QwGoUVVTYtJSG0/view",
 };
 
 // LAST PROJECTS SECTION
@@ -151,63 +151,71 @@ const data = {
     },
     {
       id: 9,
-      title: "Time Tracking Dashboard App",
-      description:
-        "Dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on JSON data and provides a responsive UI for a seamless experience across all devices.",
-      image: require("../assets/projects/11_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-time-tracking-dashboard.netlify.app/",
-      githubLink: "https://github.com/juliengDev/Time-tracking-dashboard",
-    },
-    {
-      id: 10,
-      title: "News homepage",
-      description: "News homepage website focused on topics like Web 3.0, technology trends, and gaming. It features a clean, modern design with a focus on usability and responsiveness.",
-      image: require("../assets/projects/18_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-news-hompage.netlify.app/",
-      githubLink: "https://github.com/juliengDev/News_Homepage",
-    },
-    {
-      id: 11,
       title: "E-commerce product page",
       description: "Interactive and accessible e-commerce product page featuring a lightbox gallery and dynamic cart management!",
       image: require("../assets/projects/19_desktop-preview.jpg"),
       liveDemo: "https://juliengdev-e-commerce-product-page.netlify.app/",
       githubLink: "https://github.com/juliengDev/E-commerce_product_page",
     },
-    {
-      id: 12,
-      title: "Newsletter sign-up form with success message",
-      description: "Responsive newsletter sign-up form that validates email input, displays a success message, and adapts to different devices with interactive hover and focus states.",
-      image: require("../assets/projects/07_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-newsletter-sign-up.netlify.app/",
-      githubLink: "https://github.com/juliengDev/Newsletter_sign-up_form",
-    },
-    {
-      id: 13,
-      title: "Flashcards App",
-      description: "Flashcard app to help you with your revisions. Create and study your own revision cards interactively.",
-      image: require("../assets/projects/09_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-flashcards-app.netlify.app/",
-      githubLink: "https://github.com/juliengDev/flashcards-app",
-    },
-    {
-      id: 14,
-      title: "Interactive rating component",
-      description:
-        "Interactive web component that allows users to rate from 1 to 5 stars and display the result in a modal. It was developed with a focus on accessibility and best practices in front-end development.",
-      image: require("../assets/projects/15_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-interactive-rating.netlify.app/",
-      githubLink: "https://github.com/juliengDev/Interactive_rating_component",
-    },
-    {
-      id: 15,
-      title: "Contact form app",
-      description:
-        "Accessible contact form component that allows users to submit their inquiries while providing real-time validation feedback. It was developed with a strong focus on accessibility, keyboard navigation, and responsive design, following modern front-end development best practices.",
-      image: require("../assets/projects/17_desktop-preview.jpg"),
-      liveDemo: "https://juliengdev-contact-form.netlify.app/",
-      githubLink: "https://github.com/juliengDev/Contact_Form",
-    },
+    // {
+    //   id: 10,
+    //   title: "News homepage",
+    //   description: "News homepage website focused on topics like Web 3.0, technology trends, and gaming. It features a clean, modern design with a focus on usability and responsiveness.",
+    //   image: require("../assets/projects/18_desktop-preview.jpg"),
+    //   liveDemo: "https://juliengdev-news-hompage.netlify.app/",
+    //   githubLink: "https://github.com/juliengDev/News_Homepage",
+    // },
+    // {
+    //   id: 12,
+    //   title: "Newsletter sign-up form with success message",
+    //   description: "Responsive newsletter sign-up form that validates email input, displays a success message, and adapts to different devices with interactive hover and focus states.",
+    //   image: require("../assets/projects/07_desktop-preview.jpg"),
+    //   liveDemo: "https://juliengdev-newsletter-sign-up.netlify.app/",
+    //   githubLink: "https://github.com/juliengDev/Newsletter_sign-up_form",
+    // },
+    // {
+    //   id: 9,
+    //   title: "Time Tracking Dashboard App",
+    //   description:
+    //     "Dynamic time tracking dashboard that allows users to visualize their activity data in a clear and interactive way. Built with TypeScript, it dynamically updates based on JSON data and provides a responsive UI for a seamless experience across all devices.",
+    //   image: require("../assets/projects/11_desktop-preview.jpg"),
+    //   liveDemo: "https://juliengdev-time-tracking-dashboard.netlify.app/",
+    //   githubLink: "https://github.com/juliengDev/Time-tracking-dashboard",
+    // },
+    // {
+    //   id: 11,
+    //   title: "E-commerce product page",
+    //   description: "Interactive and accessible e-commerce product page featuring a lightbox gallery and dynamic cart management!",
+    //   image: require("../assets/projects/19_desktop-preview.jpg"),
+    //   liveDemo: "https://juliengdev-e-commerce-product-page.netlify.app/",
+    //   githubLink: "https://github.com/juliengDev/E-commerce_product_page",
+    // },
+    // {
+    //   id: 13,
+    //   title: "Flashcards App",
+    //   description: "Flashcard app to help you with your revisions. Create and study your own revision cards interactively.",
+    //   image: require("../assets/projects/09_desktop-preview.jpg"),
+    //   liveDemo: "https://juliengdev-flashcards-app.netlify.app/",
+    //   githubLink: "https://github.com/juliengDev/flashcards-app",
+    // },
+    // {
+    //   id: 14,
+    //   title: "Interactive rating component",
+    //   description:
+    //     "Interactive web component that allows users to rate from 1 to 5 stars and display the result in a modal. It was developed with a focus on accessibility and best practices in front-end development.",
+    //   image: require("../assets/projects/15_desktop-preview.jpg"),
+    //   liveDemo: "https://juliengdev-interactive-rating.netlify.app/",
+    //   githubLink: "https://github.com/juliengDev/Interactive_rating_component",
+    // },
+    // {
+    //   id: 15,
+    //   title: "Contact form app",
+    //   description:
+    //     "Accessible contact form component that allows users to submit their inquiries while providing real-time validation feedback. It was developed with a strong focus on accessibility, keyboard navigation, and responsive design, following modern front-end development best practices.",
+    //   image: require("../assets/projects/17_desktop-preview.jpg"),
+    //   liveDemo: "https://juliengdev-contact-form.netlify.app/",
+    //   githubLink: "https://github.com/juliengDev/Contact_Form",
+    // },
   ],
 };
 // Leadership SECTION
